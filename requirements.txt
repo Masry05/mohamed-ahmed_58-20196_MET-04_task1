@@ -1,0 +1,24 @@
+# CSEN1095 packages from the supplied Lab 1 and Lab 3 requirements.
+# Python 3.12; pandas 2.3.x is required by ydata-profiling.
+
+# Notebooks
+ipykernel==7.3.0
+
+# Collection (Lab 1)
+httpx==0.28.1
+beautifulsoup4==4.15.0
+tenacity==9.1.4
+
+# Exploration and cleaning (Lab 3 and Task 1)
+pandas==2.3.3
+ydata-profiling==4.18.4
+# ydata-profiling imports pkg_resources, supplied by this setuptools release.
+setuptools==80.9.0
+
+# Database access (Lab 3)
+SQLAlchemy==2.0.54
+psycopg[binary]==3.3.5
+
+# Data quality and contracts (Lab 4)
+pydantic==2.13.5
+pandera==0.33.1
